@@ -30,7 +30,7 @@ const About = () => {
     <>
       <section className="page-hero page-hero--image">
         <img
-          src="https://static.wixstatic.com/media/d5bcb4_982401b5dfdc4de1814c8af0e245e8c6~mv2.jpg/v1/fill/w_1920,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d5bcb4_982401b5dfdc4de1814c8af0e245e8c6~mv2.jpg"
+          src="/images/hero-bg.jpg"
           alt="Knights of Columbus Council 10205"
           className="page-hero__bg-image"
         />

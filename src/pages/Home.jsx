@@ -71,31 +71,31 @@ const videos = [
     title: 'A Message from Our Knights',
     youtubeId: 'l_AStXcA1cw',
     duration: '1:20',
-    thumbnail: 'https://static.wixstatic.com/media/d5bcb4_94c3f7bf2ac2469299e52e3463046227f002.jpg/v1/fill/w_494,h_278,enc_auto/file.jpeg',
+    thumbnail: '/images/vid-message.jpg',
   },
   {
     title: 'Homeless Coats',
     youtubeId: 'mWJvtC8Qm74',
     duration: '2:14',
-    thumbnail: 'https://static.wixstatic.com/media/d5bcb4_0335479e9a4e414fba674413f7979239f002.jpg/v1/fill/w_494,h_278,enc_auto/file.jpeg',
+    thumbnail: '/images/vid-coats.jpg',
   },
   {
     title: 'Rockies Food Bank',
     youtubeId: 'kJScd486yKQ',
     duration: '1:29',
-    thumbnail: 'https://static.wixstatic.com/media/d5bcb4_7449766201e24f2fb30cd27c1da08667f002.jpg/v1/fill/w_494,h_278,enc_auto/file.jpeg',
+    thumbnail: '/images/vid-foodbank.jpg',
   },
   {
     title: 'Kids Coats',
     youtubeId: 'MyxPtLXSPE4',
     duration: '2:19',
-    thumbnail: 'https://static.wixstatic.com/media/d5bcb4_b8801e0720c042ad8da90b1ae19d17d7f002.jpg/v1/fill/w_494,h_278,enc_auto/file.jpeg',
+    thumbnail: '/images/vid-kidscoats.jpg',
   },
   {
     title: 'Marshal Fire Relief',
     youtubeId: 'Ql0dV3SWd0g',
     duration: '3:01',
-    thumbnail: 'https://static.wixstatic.com/media/d5bcb4_54680b39fb38497da5e7ae33e0db830cf002.jpg/v1/fill/w_494,h_278,enc_auto/file.jpeg',
+    thumbnail: '/images/vid-fire.jpg',
   },
 ]
 
@@ -165,14 +165,14 @@ const Home = () => {
       <section className="hero">
         <div className="hero__bg">
           <img
-            src="https://static.wixstatic.com/media/d5bcb4_982401b5dfdc4de1814c8af0e245e8c6~mv2.jpg/v1/fill/w_1920,h_700,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d5bcb4_982401b5dfdc4de1814c8af0e245e8c6~mv2.jpg"
+            src="/images/hero-bg.jpg"
             alt="Knights of Columbus Council 10205 members"
           />
         </div>
         <div className="hero__overlay" />
         <div className="container hero__content">
           <img
-            src="https://static.wixstatic.com/media/d5bcb4_a149aae7debe4b10a25120e1f47c50f6~mv2.png/v1/fill/w_160,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Knights-of-Columbus%20Transparent%20PNG.png"
+            src="/images/kofc-emblem.png"
             alt="Knights of Columbus emblem"
             className="hero__emblem"
           />
@@ -319,7 +319,7 @@ const Home = () => {
         <div className="container">
           <div className="parish-section">
             <img
-              src="https://static.wixstatic.com/media/d5bcb4_473f1b5d07b64505ab5068eb3292d4af~mv2.jpg/v1/fill/w_864,h_540,al_c,lg_1,q_85,enc_avif,quality_auto/d5bcb4_473f1b5d07b64505ab5068eb3292d4af~mv2.jpg"
+              src="/images/stm-church.jpg"
               alt="St. Thomas More Catholic Church"
               className="parish-section__image"
             />
