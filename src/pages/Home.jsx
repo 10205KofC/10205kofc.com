@@ -4,6 +4,8 @@ import { FaPray, FaUsers, FaChild, FaCalendarAlt, FaArrowRight, FaPlay, FaYoutub
 import { GiSwordBrandish } from 'react-icons/gi'
 import './pages.css'
 
+const base = import.meta.env.BASE_URL
+
 const programs = [
   {
     icon: <FaPray />,
@@ -71,31 +73,31 @@ const videos = [
     title: 'A Message from Our Knights',
     youtubeId: 'l_AStXcA1cw',
     duration: '1:20',
-    thumbnail: '/images/vid-message.jpg',
+    thumbnail: `${base}images/vid-message.jpg`,
   },
   {
     title: 'Homeless Coats',
     youtubeId: 'mWJvtC8Qm74',
     duration: '2:14',
-    thumbnail: '/images/vid-coats.jpg',
+    thumbnail: `${base}images/vid-coats.jpg`,
   },
   {
     title: 'Rockies Food Bank',
     youtubeId: 'kJScd486yKQ',
     duration: '1:29',
-    thumbnail: '/images/vid-foodbank.jpg',
+    thumbnail: `${base}images/vid-foodbank.jpg`,
   },
   {
     title: 'Kids Coats',
     youtubeId: 'MyxPtLXSPE4',
     duration: '2:19',
-    thumbnail: '/images/vid-kidscoats.jpg',
+    thumbnail: `${base}images/vid-kidscoats.jpg`,
   },
   {
     title: 'Marshal Fire Relief',
     youtubeId: 'Ql0dV3SWd0g',
     duration: '3:01',
-    thumbnail: '/images/vid-fire.jpg',
+    thumbnail: `${base}images/vid-fire.jpg`,
   },
 ]
 
@@ -165,14 +167,14 @@ const Home = () => {
       <section className="hero">
         <div className="hero__bg">
           <img
-            src="/images/hero-bg.jpg"
+            src={`${base}images/hero-bg.jpg`}
             alt="Knights of Columbus Council 10205 members"
           />
         </div>
         <div className="hero__overlay" />
         <div className="container hero__content">
           <img
-            src="/images/kofc-emblem.png"
+            src={`${base}images/kofc-emblem.png`}
             alt="Knights of Columbus emblem"
             className="hero__emblem"
           />
@@ -319,7 +321,7 @@ const Home = () => {
         <div className="container">
           <div className="parish-section">
             <img
-              src="/images/stm-church.jpg"
+              src={`${base}images/stm-church.jpg`}
               alt="St. Thomas More Catholic Church"
               className="parish-section__image"
             />
@@ -345,7 +347,7 @@ const Home = () => {
           <div className="mcgivney">
             <div className="mcgivney__image">
               <img
-                src="/FrMcGivney.png"
+                src={`${base}FrMcGivney.png`}
                 alt="Blessed Michael McGivney"
               />
             </div>

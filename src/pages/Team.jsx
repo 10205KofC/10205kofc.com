@@ -1,20 +1,22 @@
 import './pages.css'
 
+const base = import.meta.env.BASE_URL
+
 const leadership = [
   {
     name: 'Fr Tom Scherer',
     role: 'Chaplain',
-    image: '/FrTomScherer.png',
+    image: `${base}FrTomScherer.png`,
   },
   {
     name: 'Trey Scarborough',
     role: 'Grand Knight',
-    image: '/images/trey-scarborough.jpg',
+    image: `${base}images/trey-scarborough.jpg`,
   },
   {
     name: 'Paul Graf',
     role: 'Deputy Grand Knight',
-    image: '/images/paul-graf.jpg',
+    image: `${base}images/paul-graf.jpg`,
   },
 ]
 
@@ -32,12 +34,12 @@ const officers = [
   {
     name: 'Walden Walker',
     role: 'Treasurer',
-    image: '/images/walden-walker.jpg',
+    image: `${base}images/walden-walker.jpg`,
   },
   {
     name: 'Jim Russel',
     role: 'Recorder',
-    image: '/images/jim-russel.jpg',
+    image: `${base}images/jim-russel.jpg`,
   },
   {
     name: 'Joe Lamb',
@@ -47,17 +49,17 @@ const officers = [
   {
     name: 'John Duero',
     role: 'Advocate',
-    image: '/images/john-duero.jpg',
+    image: `${base}images/john-duero.jpg`,
   },
   {
     name: 'Rodger (Pappy) Goffredi',
     role: 'Warden',
-    image: '/images/rodger-goffredi.jpg',
+    image: `${base}images/rodger-goffredi.jpg`,
   },
   {
     name: 'Jim Recker',
     role: 'Outside Guard',
-    image: '/images/jim-recker.png',
+    image: `${base}images/jim-recker.png`,
   },
 ]
 
@@ -70,17 +72,17 @@ const directors = [
   {
     name: 'Steve Hyatt',
     role: 'Faith/Church Director',
-    image: '/images/steve-hyatt.jpg',
+    image: `${base}images/steve-hyatt.jpg`,
   },
   {
     name: 'Armand Bonvicino',
     role: 'Council Director',
-    image: '/images/armand-bonvicino.png',
+    image: `${base}images/armand-bonvicino.png`,
   },
   {
     name: 'Tom Kaiser',
     role: 'Life Director',
-    image: '/images/tom-kaiser.jpg',
+    image: `${base}images/tom-kaiser.jpg`,
   },
   {
     name: 'Dan McCarthy',
@@ -90,7 +92,7 @@ const directors = [
   {
     name: 'Tuan Cao',
     role: 'Membership Director',
-    image: '/images/tuan-cao.jpg',
+    image: `${base}images/tuan-cao.jpg`,
   },
 ]
 
@@ -98,22 +100,22 @@ const trustees = [
   {
     name: 'Darin Gilliland',
     role: '1st Year Trustee',
-    image: '/images/darin-gilliland.jpg',
+    image: `${base}images/darin-gilliland.jpg`,
   },
   {
     name: 'Tom Reinhardt',
     role: '2nd Year Trustee',
-    image: '/images/tom-reinhardt.jpg',
+    image: `${base}images/tom-reinhardt.jpg`,
   },
   {
     name: 'Bobby Rogers',
     role: '3rd Year Trustee',
-    image: '/images/bobby-rogers.jpg',
+    image: `${base}images/bobby-rogers.jpg`,
   },
   {
     name: 'Emidio Parziale',
     role: 'Past Grand Knight',
-    image: '/images/emidio-parziale.jpg',
+    image: `${base}images/emidio-parziale.jpg`,
   },
 ]
 

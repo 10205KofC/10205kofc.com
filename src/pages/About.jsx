@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import { FaArrowRight, FaHeart, FaHandshake, FaUsers, FaFlag } from 'react-icons/fa'
 import './pages.css'
 
+const base = import.meta.env.BASE_URL
+
 const principles = [
   {
     icon: <FaHeart />,
@@ -30,7 +32,7 @@ const About = () => {
     <>
       <section className="page-hero page-hero--image">
         <img
-          src="/images/hero-bg.jpg"
+          src={`${base}images/hero-bg.jpg`}
           alt="Knights of Columbus Council 10205"
           className="page-hero__bg-image"
         />
