@@ -1,0 +1,5 @@
+node_modules
+dist
+scraper/output
+.DS_Store
+*.local
