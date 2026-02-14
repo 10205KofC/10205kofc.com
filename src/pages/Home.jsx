@@ -31,40 +31,40 @@ const programs = [
 
 const upcomingEvents = [
   {
-    date: 'Fri, Feb 20',
-    title: "Fish Fry's - 2026 Lent Season",
-    location: 'St. Thomas More Church',
-    type: 'fundraiser',
+    date: 'Sat, Feb 14',
+    title: 'District Free Throw Contest',
+    location: 'STM Gym',
+    type: 'youth',
   },
   {
     date: 'Tue, Feb 17',
-    title: 'Monthly Social Meeting',
-    location: 'St. Thomas More Catholic Church',
+    title: 'Exemplification & Social Meeting',
+    location: 'McCallin 2 / Padre / Kitchen',
     type: 'meeting',
   },
   {
     date: 'Fri, Feb 20',
-    title: 'PRAY at Planned Parenthood',
-    location: 'Planned Parenthood',
-    type: 'faith',
+    title: 'Lenten Fish Fry',
+    location: 'McCallin 1 & 2 / Padre / Kitchen',
+    type: 'fundraiser',
   },
   {
-    date: 'Tue, Mar 03',
-    title: 'Monthly Business Meeting',
-    location: 'St. Thomas More Catholic Church',
+    date: 'Fri, Feb 27',
+    title: 'Lenten Fish Fry',
+    location: 'McCallin 1 & 2 / Padre / Kitchen',
+    type: 'fundraiser',
+  },
+  {
+    date: 'Tue, Mar 3',
+    title: 'Business Meeting',
+    location: 'McCallin 2',
     type: 'meeting',
   },
   {
-    date: 'Sat, Mar 14',
-    title: 'Food Drive 2026 - Box Distribution',
-    location: 'St. Thomas More',
-    type: 'community',
-  },
-  {
-    date: 'Sat, Mar 21',
-    title: 'Free Throw Championship',
-    location: 'STM Catholic School (Gym)',
-    type: 'youth',
+    date: 'Fri, Mar 6',
+    title: 'Lenten Fish Fry',
+    location: 'McCallin 1 & 2 / Padre / Kitchen',
+    type: 'fundraiser',
   },
 ]
 
